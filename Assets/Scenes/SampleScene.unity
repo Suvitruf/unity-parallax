@@ -487,7 +487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 519420028}
-  paralaxEffect: 0.2
+  parallaxEffect: 0.7
 --- !u!1 &1668827040
 GameObject:
   m_ObjectHideFlags: 0

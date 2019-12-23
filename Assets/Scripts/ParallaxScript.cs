@@ -4,7 +4,7 @@ namespace KaizoTrap {
     public class ParallaxScript : MonoBehaviour {
         private float startPos, length;
         public new GameObject camera;
-        public float paralaxEffect;
+        public float parallaxEffect;
 
         void Start() {
             startPos = transform.position.x;
@@ -12,8 +12,8 @@ namespace KaizoTrap {
         }
 
         void Update() {
-            float temp = camera.transform.position.x * (1 - paralaxEffect);
-            float dist = camera.transform.position.x * paralaxEffect;
+            float temp = camera.transform.position.x * (1 - parallaxEffect);
+            float dist = camera.transform.position.x * parallaxEffect;
 
             transform.position = new Vector3(startPos + dist, transform.position.y, transform.position.z);
 

@@ -5,7 +5,10 @@ namespace KaizoTrap {
     public class SmoothFollow : MonoBehaviour {
         public Transform target;
         public float smoothDampTime = 0.2f;
-        [HideInInspector] public new Transform transform;
+
+        [HideInInspector]
+        public new Transform transform;
+
         public Vector3 cameraOffset;
         public bool useFixedUpdate = false;
 
